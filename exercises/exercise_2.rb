@@ -6,9 +6,9 @@ puts "----------"
 
 # Your code goes here ...
 
-@store = Store.find_by(id: 1)
+@store1 = Store.find_by(id: 1)
 @store2 = Store.find_by(id: 2)
 
-@store.name = "Maple Ridge"
+@store1.name = "Maple Ridge"
 
-puts @store.inspect
+puts @store1.inspect
